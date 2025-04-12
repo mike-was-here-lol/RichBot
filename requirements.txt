@@ -1,0 +1,19 @@
+# Core dependencies
+streamlit==1.31.1         # Main web framework for the application
+openai>=1.0.0           # OpenAI API integration for GPT-3.5 Turbo
+python-dotenv==1.0.0     # For loading environment variables
+
+# Image handling
+Pillow==10.2.0          # For image processing and slideshow functionality
+
+# Utility packages
+pyperclip==1.8.2        # For copy-to-clipboard functionality
+python-dateutil==2.8.2   # For date/time handling
+requests==2.31.0         # For HTTP requests
+packaging==23.2          # Required by some dependencies
+
+# Optional but recommended
+watchdog==3.0.0         # For automatic reloading during development 
+
+# Add timezone support
+pytz==2024.1 
