@@ -11,6 +11,17 @@ import base64
 import json
 import pytz
 
+# Move this to the very top of app.py, right after imports
+st.set_page_config(
+    page_title="RichBot",
+    page_icon="🧠",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'About': 'RichBot - AI assistant'
+    }
+)
+
 # Load environment variables
 load_dotenv()
 
