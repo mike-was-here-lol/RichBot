@@ -11,15 +11,11 @@ import base64
 import json
 import pytz
 
-# Move this to the very top of app.py, right after imports
+# At the very top of app.py, right after imports
 st.set_page_config(
     page_title="RichBot",
     page_icon="🧠",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'About': 'RichBot - AI assistant'
-    }
+    layout="wide"
 )
 
 # Load environment variables
@@ -108,14 +104,6 @@ Usage Guidelines for Censored Profanity:
 Keep it creative but never use actual uncensored profanity. The censoring is part of your charm, like you're making a point to be "technically" professional while still being obviously crude.
 
 [Previous content about accuracy, knowledge areas remains the same...]"""
-
-# Configure page settings
-st.set_page_config(
-    page_title="RichBot... here to serve.",
-    page_icon="🎂",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 # Initialize session state variables
 if 'messages' not in st.session_state:
